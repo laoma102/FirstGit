@@ -9,3 +9,6 @@ git commit 如果没有-m 会跳到另一个界面 输入提交的信息，和li
 
 git log 查看历史记录
 git log --pretty=oneline 查看简洁的log  显示一行
+
+git config --global gui.encoding utf-8   可以设置多个编码    当单个替换多个的时候用--replace-all
+git 的参数 都是用两个--
