@@ -4,3 +4,5 @@ git是个分布式的版本控制系统。不是cvs svn 那样的集中式的
 在当前目录 git bush 窗口  用git init 命令 创建一个仓库
 把文件放进去，  git add  aa.txt  添加文件  可以连续添加多个
 git commit -m "aaaa"  提交文件
+git commit 如果没有-m 会跳到另一个界面 输入提交的信息，和linux修改文本操作一致。
+这么做是为了 -m的信息太多到多行的时候用， 也就是单独的界面输入log信息。
