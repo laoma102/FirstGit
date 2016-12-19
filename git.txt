@@ -6,3 +6,6 @@ git是个分布式的版本控制系统。不是cvs svn 那样的集中式的
 git commit -m "aaaa"  提交文件
 git commit 如果没有-m 会跳到另一个界面 输入提交的信息，和linux修改文本操作一致。
 这么做是为了 -m的信息太多到多行的时候用， 也就是单独的界面输入log信息。
+
+git log 查看历史记录
+git log --pretty=oneline 查看简洁的log  显示一行
