@@ -1,2 +1,6 @@
 git 最早是为了管理linux代码
 git是个分布式的版本控制系统。不是cvs svn 那样的集中式的
+
+在当前目录 git bush 窗口  用git init 命令 创建一个仓库
+把文件放进去，  git add  aa.txt  添加文件  可以连续添加多个
+git commit -m "aaaa"  提交文件
