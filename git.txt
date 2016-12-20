@@ -23,3 +23,5 @@ git reset --hard head~100
 git reset --hard 3628164  commit id 的前几个数
 
 git reflog 查看以往的操作记录  在最前面一列显示了每次操作对应的commit id， 只有能产生commit id 操作
+
+track changes  for test 1213
