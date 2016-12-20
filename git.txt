@@ -24,4 +24,6 @@ git reset --hard 3628164  commit id 的前几个数
 
 git reflog 查看以往的操作记录  在最前面一列显示了每次操作对应的commit id， 只有能产生commit id 操作
 
-track changes  for test 1213
+git 工作区和暂存区，我们的目录就是工作区，git add（stage）  添加到暂存区，  git commit 将暂存区提交到分支（master）
+管理修改：先添加到暂存区，然后提交到分支
+撤销求改：
