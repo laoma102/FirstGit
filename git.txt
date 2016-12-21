@@ -42,3 +42,7 @@ git reset head git.txt  head 表示最新版本
 如果误删，直接checkout 获得最新的版本就好了
 
 测试push
+git remote add origin https://github.com/laoma102/FirstGit.git
+git push -u origin master
+
+SSH地址：git@github.com:laoma102/FirstGit.git
