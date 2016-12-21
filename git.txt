@@ -40,3 +40,5 @@ git reset head git.txt  head 表示最新版本
 
 删除文件：先删掉文件 rm  然后提交到stage,  git rm test.txt 或者 git add   然后提交 git commit
 如果误删，直接checkout 获得最新的版本就好了
+
+测试push
